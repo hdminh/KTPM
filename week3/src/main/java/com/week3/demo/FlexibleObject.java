@@ -19,24 +19,23 @@ public class FlexibleObject {
     }
 
     public FlexibleObject(ObjectType type){
-        attributes = new HashMap<>();
+        Map<String, Object> attributes1 = FlexibleObjectManager.initDefaultAttributes(type);
         canAddNew = false;
-        Set<String> keys = type.getStrDefKeys();
-        keys.forEach(key -> attributes.put(key, 1));
+        attributes = attributes1;
     }
 
     public Set<String> getAllKey(){
         return attributes.keySet();
     }
 
-    public Object getKey(String key) {
+    public Object get(String key) {
         if (attributes.containsKey(key)) {
             return attributes.get(key);
         }
         return null;
     }
 
-    public boolean setKey(String key, Object value) {
+    public boolean set(String key, Object value) {
         if (attributes.containsKey(key)) {
             attributes.replace(key, value);
             return true;

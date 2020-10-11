@@ -8,8 +8,8 @@ import java.util.stream.Collectors;
 
 @Getter
 public enum ObjectType {
-    PHAN_SO("tu_so,mau_so"),
-    BOOK("iSBN,title,authors,publisher");
+    PHAN_SO("tuSo,mauSo"),
+    BOOK("isnb,title,authors,publisher");
 
     private final Set<String> strDefKeys;
 
