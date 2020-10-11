@@ -10,7 +10,7 @@ import java.util.Set;
 @Log4j2
 @AllArgsConstructor
 public class FlexibleObject {
-    private final Map<String, Object> attributes;
+    private Map<String, Object> attributes;
     private final boolean canAddNew;
 
     public FlexibleObject(){
@@ -19,9 +19,13 @@ public class FlexibleObject {
     }
 
     public FlexibleObject(ObjectType type){
-        Map<String, Object> attributes1 = FlexibleObjectManager.initDefaultAttributes(type);
         canAddNew = false;
-        attributes = attributes1;
+        attributes = FlexibleObjectManager.initDefaultAttributes(type);
+    }
+
+    public FlexibleObject(ObjectType type, boolean canAddNew){
+        this.canAddNew = canAddNew;
+        attributes = FlexibleObjectManager.initDefaultAttributes(type);
     }
 
     public Set<String> getAllKey(){
