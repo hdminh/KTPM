@@ -31,3 +31,15 @@ f
 6CanTin/src/main/java/com/ktpm/cantin/food/all/Com.java,e/e/ee03c3a8067b69c662a1e03421dc285e7d02bb53
 k
 ;CanTin/src/main/java/com/ktpm/cantin/food/AbstractFood.java,0/1/01afbaafa6d435f8f77f8b5ba1193c5c621ba048
+?
+week3/week3.iml,9/5/956653add34b8048b2dc9f8217cc7865f1b2a9d5
+=
+week3/pom.xml,b/3/b3c80ce15d98ec3a992121f0f180d083a6bb323e
+_
+/week3/src/main/java/com/week3/demo/Pyramid.java,e/f/ef6cf9134bf7df035b0ccdd4c1e2aca58712b475
+f
+6week3/src/main/java/com/week3/demo/FlexibleObject.java,e/0/e03c52ae693dbd034294c5e196c175aca94d2b88
+\
+,week3/src/main/java/com/week3/demo/Main.java,3/4/34f9ff2c88b05000ce1bb9a5a2823174492671fc
+b
+2week3/src/main/java/com/week3/demo/ObjectType.java,7/f/7f17ba4bcb778fb7627cadbad54d30e9574ec883

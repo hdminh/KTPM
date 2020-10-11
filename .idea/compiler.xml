@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Week2" />
         <module name="CanTin" />
+        <module name="week3" />
       </profile>
     </annotationProcessing>
   </component>

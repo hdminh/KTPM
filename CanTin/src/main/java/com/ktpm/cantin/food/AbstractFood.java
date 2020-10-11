@@ -9,8 +9,6 @@ public abstract class AbstractFood implements Food {
     protected Double price;
     private String extras;
 
-    public 
-
     @Override
     public double tinhTien(int soluong) {
         if (soluong > 0) {
